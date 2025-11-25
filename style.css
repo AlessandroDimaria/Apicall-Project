@@ -3,7 +3,11 @@ body {
   background: #121212;
   color: #fff;
   text-align: center;
+  height: 100vh;
+  background: url("./img/disco3.gif") no-repeat center center fixed;
+  background-size: cover;
 }
+
 input {
   padding: 10px;
   margin: 20px;
