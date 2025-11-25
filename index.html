@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Explorer - iTunes API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎶 Music Explorer (iTunes)</h1>
+    <div class="search-row">
+     <input type="text" id="searchInput" placeholder="Cerca artista...">
+    <button onclick="searchArtist()">Cerca</button>
+    <div class="dropdown">
+      <button class="dropbtn">Scegli il genere</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="searchByGenre('pop')">Pop</a>
+        <a href="#" onclick="searchByGenre('rock')">Rock</a>
+        <a href="#" onclick="searchByGenre('rap')">Rap</a>
+        <a href="#" onclick="searchByGenre('jazz')">Jazz</a>
+        <a href="#" onclick="searchByGenre('classical')">Classica</a>
+      </div>
+    </div>
+  </div>
+  <div class="results" id="results"></div>
+   <div class="pagina" id="pagina"></div>
+<script src="script.js"></script
+</body>
+</html>
